@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>World-Explorer</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="scrypt.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<a href="/"><h2>Where in the world?</h2></a>
+			<div id="day-night" style="display: flex; cursor: pointer;">
+				<i class="ri-moon-line"></i>&nbsp
+				<p>Dark Mode</p>
+			</div>
+		</header>
+
+		<div id="search-filter-area">
+			<div id="search">
+				<i class="ri-search-2-line"></i>
+				<input type="text" placeholder="Search for a country...">
+			</div>
+			<div id="filter">
+				<select name="region" id="filter-by-region">
+					<option value="region" hidden>Filter by Region</option>
+					<option value="Africa">Africa</option>
+					<option value="America">America</option>
+					<option value="Asia">Asia</option>
+					<option value="Europe">Europe</option>
+					<option value="Oceania">Oceania</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="card-container"></div>
+	</body>
+</html>
