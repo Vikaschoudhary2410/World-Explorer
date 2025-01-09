@@ -19,7 +19,7 @@ This project integrates the [REST Countries API](https://restcountries.com) to d
 ## How to Use
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/rest-countries-api.git
+   git clone https://github.com/Vikaschoudhary2410/rest-countries-api.git
    ```
 2. Navigate to the project directory:  
    ```bash
