@@ -27,9 +27,6 @@ This project integrates the [REST Countries API](https://restcountries.com) to d
    ```
 3. Open `index.html` in your browser to view the project.
 
-## Preview
-![Project Screenshot](./path-to-screenshot.jpg)
-
 ## Challenges Faced
 - Handling API downtime and using the provided `data.json` as a backup.
 - Implementing the dark mode toggle with seamless transitions.
